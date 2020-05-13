@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.mainClass {
+  margin: 0px;
+  background-color: rgb(57, 57, 57);
+  color: #ffffff;
+  width: 100vw;
+  border-bottom: 1px solid #0c7b93;
+  .titleText {
+    width: 100vw;
+    height: 10%;
+    line-height: 70%;
+    margin-left: 1%;
+    padding-top: 2%;
+    h1 {
+      font-size: 3em;
+      color: #00d0ff;
+    }
+    h2 {
+      padding-top: 2%;
+      color: #ffffff;
+    }
+  }
+  h3 {
+    color: #00d0ff;
+  }
+  .personalBranding {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+.carousel {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 2.5%;
+  text-align: center;
+  width: 95%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  height: 7vh;
+  padding-top: 1%;
+  a {
+    font-size: 33px;
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+  }
+}
+
+.flex {
+  display: flex;
+  text-align: justify;
+  justify-content: space-evenly;
+}
