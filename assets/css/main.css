@@ -4159,3 +4159,8 @@ input, select, textarea {
 		display: flex;
 		justify-content: space-between;
 	}
+
+	.responsive{
+		width: 33%;
+		height: auto;
+	}
